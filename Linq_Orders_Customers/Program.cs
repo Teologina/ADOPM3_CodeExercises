@@ -49,11 +49,11 @@ namespace Linq_Orders_Customers
        }
     }
 }
-//Exercises:
+///Exercises:
 //1.    Antalet kunder, Antalet kunder i Sverige, Äldsta kundens födelsedag, Yngsta kundens födelsedag
 //2.    Använd GroupBy för att lista antalet kunder per land
 //3.    Antalet kunder med ett efternamn som slutar på 'son'
 
 //4.    Antalet ordrar och totalt ordervärde av de 5 största ordrarna
-//5.    Använd GroupJoin för att lista kund och ordervärde för de 5 största ordrarna
-//6.    Lista de 5 största kunderna baserat på ordervärde
+//5.    Använd Join för att lista kund och ordervärde för de 5 största ordrarna
+//6.    Använd GroupJoin för att lista de 5 största kunderna baserat på ordervärde
