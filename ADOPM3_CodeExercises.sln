@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda1", "Lambda1\Lambda1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_Orders", "Linq_Orders\Linq_Orders.csproj", "{F2C49BAC-D4B5-4891-8630-01F0F8C9AD0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Orders_Customers", "Linq_Orders_Customers\Linq_Orders_Customers.csproj", "{DE30B5CD-82AB-48AB-B5B1-6A3D751F4262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_Orders_Customers", "Linq_Orders_Customers\Linq_Orders_Customers.csproj", "{DE30B5CD-82AB-48AB-B5B1-6A3D751F4262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{94B76CDA-BF22-4C20-BF39-E22BEFDC024B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{DE30B5CD-82AB-48AB-B5B1-6A3D751F4262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE30B5CD-82AB-48AB-B5B1-6A3D751F4262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE30B5CD-82AB-48AB-B5B1-6A3D751F4262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B76CDA-BF22-4C20-BF39-E22BEFDC024B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B76CDA-BF22-4C20-BF39-E22BEFDC024B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B76CDA-BF22-4C20-BF39-E22BEFDC024B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B76CDA-BF22-4C20-BF39-E22BEFDC024B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
