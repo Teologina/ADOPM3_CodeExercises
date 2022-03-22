@@ -17,7 +17,7 @@ namespace Linq_Orders_Customers
         public decimal Total => Value + Freight;
         public decimal VAT => Total * 0.8M;
 
-        public DateTime OrderDate { get; private set; }
+        public DateTime OrderDate { get; init; }
         public DateTime? DeliveryDate { get; set; }
 
         #region Implement IEquatable
@@ -69,11 +69,15 @@ namespace Linq_Orders_Customers
 
         public override string ToString() => $"{OrderID}: Value: {Value:C2} OrderDate: {OrderDate:d} DeliverDate: {DeliveryDate:d} CustomerID: {CustomerID}";
 
+        //For the serialization only
+        public Order() {}
         public Order (Guid CustomerID)
         {
             this.OrderID = Guid.NewGuid();
             this.CustomerID = CustomerID;
         }
+
+        #region copy constructor
         public Order (IOrder src)
         {
             NrOfArticles = src.NrOfArticles;
@@ -86,5 +90,6 @@ namespace Linq_Orders_Customers
             OrderID = src.OrderID;
             CustomerID = src.CustomerID;
         }
+        #endregion
     }
 }
